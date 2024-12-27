@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "ARM none eabi GCC",
+            "includePath": [
+                "${workspaceFolder}/drivers/Inc"
+            ],
+            "defines": [
+                "STM32L476xx",
+                "USE_HAL_DRIVER"
+            ],
+            "cStandard": "gnu11",
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
