@@ -124,8 +124,8 @@ flash:
 
 #---open a debug server conection------------------------------------------------------------------
 open :
-	JLinkGDBServer -if SWD -device stm32g0b1re -nogui -port 3333
-#	openocd -f board/st_nucleo_g0.cfg
+#	JLinkGDBServer -if SWD -device stm32g0b1re -nogui -port 3333
+	openocd -f board/st_nucleo_l4.cfg
 
 #---launch a debug session, NOTE: is mandatory to previously open a debug server session-----------
 debug :
